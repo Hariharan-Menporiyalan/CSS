@@ -1,0 +1,26 @@
+ol { /*this property will be applied to all the ol tags of the referenced html*/
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+p{ /*this property will be applied to all the p tags of the referenced html*/
+  color: red;
+}
+
+.font-size{ /*this property will be applied to all the tags that has the class attribute having the value font-size of the referenced html*/
+  font-size: 20px
+}
+
+#id-selector-demo{ /*this property will be applied to all the tags that has the id attribute having the value id-selector-demo of the referenced html*/
+  color: green;
+}
+
+li[value="4"]{ /*this property will be applied to all the li tags that has the value attribute having the value 4 of the referenced html*/
+  color: blue;
+}
+
+* {
+  text-align: center
+}
+/* Write your CSS below, don't change the rules above. */
