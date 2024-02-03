@@ -1,0 +1,21 @@
+/* Write your code here: */
+h1, h2 { /*grouping 2 selectors with , (comma) -> selector, selector combination*/
+    color: blue;
+}
+
+.box > p{ /*grouping 2 where rigth one is a direct child of the left using >   -> parentselector(can be class or element) > onlydirectchildselector combination*/
+    color: firebrick;
+}
+
+.box li{ /* grouping all the child classes of all levels under the left using space ( )  -> parentselector(can be class or element) anychildselector combination*/ 
+    color: purple;
+}
+
+li.done{ /*selecting lis' having the class done without any space inbetween  -> selectorselectorselector combination  -> thsis means that a single html element having multiple classes and ids can be specifically targeted*/
+    color: seagreen;
+}
+
+ul > p.done{ /*combination of 2 selectors*/
+    font-size: 0.5rem;
+}
+
