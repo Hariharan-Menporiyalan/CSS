@@ -16,6 +16,10 @@ p{ /*this property will be applied to all the p tags of the referenced html*/
   color: green;
 }
 
+li[day="monday"]{
+  /* color: red; */
+}
+
 li[value="4"]{ /*this property will be applied to all the li tags that has the value attribute having the value 4 of the referenced html*/
   color: blue;
 }
